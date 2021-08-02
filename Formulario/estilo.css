@@ -1,0 +1,163 @@
+*{
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+
+
+body{
+    background-color: black;
+}
+.formulario{
+    
+    background:url("https://image.winudf.com/v2/image1/Y29tLml6YW5ha2kuaXRhY2hpLmJsYWNrd2FsbHBhcGVyc19zY3JlZW5fOF8xNTQ2NDk2NzY4XzA5MQ/screen-8.jpg?fakeurl=1&type=.jpg");
+    
+    background-color: blue;
+    background-size: 100%;
+    height:500px;
+    width:300px;
+    margin-left:40%;
+    border-radius: 10px;
+    border: 5px solid white;
+    box-shadow: inset 0 0 15px red, 0 0 25px red, 0 0 35px red;
+    margin-top:80px;
+    
+    
+}
+
+input{
+    position: relative;
+    align-items: center;
+    margin-top:50px;
+    width: 200px;
+    margin-left: 20px;
+    background-color: transparent;
+    border: 0 ;
+    outline:none;
+    border-bottom: 1px white solid;
+    color: white;
+    
+
+
+    
+}
+
+
+.submit{
+    position: relative;
+    border-radius: 50px;
+    width: 100px;
+    left: 50px;
+    cursor: pointer;
+}
+
+.submit:hover{
+    color: black;
+    background-color: grey;
+
+}
+.container{
+    position: relative;
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter:blur(15px);
+    background-color: rgba(243, 243, 243, 0.2);
+    width: 80%;
+    left: 28px;
+    border-radius: 10px;
+    bottom:2px;
+    top: 40px;
+    height: 400px;
+    
+    
+
+
+}
+
+
+
+
+
+
+.form__label{
+    
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    top: 35px;
+    right:170px;
+    font-size:15px;
+    transform: translateY(10px);
+    transition: transform .5s, color .3s;
+
+    
+}
+
+.form__label1{
+    position: absolute;
+    box-sizing: border-box;
+    color: white;
+    font-size:15px;
+    transform: translateY(10px);
+    transition: transform .5s, color .3s;
+    bottom:90px;
+    right: 175px;
+    top:100px;
+    left:25px;
+
+}
+
+.form__label2{
+    position: absolute;
+    box-sizing: border-box;
+    color: white;
+    font-size:15px;
+    transform: translateY(10px);
+    transition: transform .5s, color .3s;
+    top: 170px;
+    right: 180px;;
+
+}
+
+.form__label3{
+    position: absolute;
+    box-sizing: border-box;
+    color: white;
+    font-size:15px;
+    transform: translateY(10px);
+    transition: transform .5s, color .3s;
+    top: 240px;
+    right: 180px;
+    left: 25px;
+
+}
+
+
+input:focus+.form__label,
+input:not(:placeholder-shown)+.form__label{
+    transform: translateY(-12px)scale(.7);
+    transform-origin:left;
+    color: gray;
+    
+}
+input:focus+.form__label1,
+input:not(:placeholder-shown)+.form__label1{
+    transform: translateY(-12px)scale(.7);
+    transform-origin:left top;
+    color: gray;
+    
+}
+
+input:focus+.form__label2,
+input:not(:placeholder-shown)+.form__label2{
+    transform: translateY(-12px)scale(.7);
+    transform-origin:left top;
+    color: gray;
+    
+}
+input:focus+.form__label3,
+input:not(:placeholder-shown)+.form__label3{
+    transform: translateY(-12px)scale(.7);
+    transform-origin:left top;
+    color: gray;
+    
+}

@@ -1,0 +1,200 @@
+*{
+    text-decoration: none;
+
+}
+header{
+    position: relative;
+    bottom:60px;
+    padding: 0;
+    background-color:black;
+    width: 100%;
+    height: 120px;
+    
+    
+    
+
+}
+
+
+
+
+.title{
+    position: relative;
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    bottom:10px;    
+    text-shadow:0 0 5px yellow, 0 0 10px yellow, 0 0 20px yellow, 0 0 30px yellow;
+    letter-spacing: 5px ;
+    font-family: 'Press Start 2P', cursive;
+    
+}
+
+.section{
+    position:absolute;
+    background-color:white;
+    width:40%;
+    height:400px;
+    margin-left: 20px;
+    margin-top: 60px;
+    border-radius: 20px;
+    border: 5px;
+    border-color: white;
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter:blur(15px);
+    background-color: rgba(243, 243, 243, 0.2);
+    color: white;
+    box-shadow:0 0 15px 0;
+    margin-top: 90px;
+    
+
+
+}
+article{
+    display: flex;
+    
+    position:block;
+    background:url("https://cdn.pixabay.com/photo/2016/12/29/18/44/background-1939128_960_720.jpg");
+    height:700px;
+    background-size: 100%;
+      
+
+
+}
+
+.imagen1{
+    position: relative;
+    height:180px;
+    width:180px;
+    border-color: white;
+    border-radius: 50%;
+    margin-left: 165px;
+    margin-top: 20px;
+    bottom:15px;
+    
+    
+    
+}
+
+.footer{
+    display: flex;
+    background-color: black;
+    width: 100%; 
+    height: 200px;
+    margin-bottom: 0px;
+    position: relative;
+    bottom: 85px;
+
+}
+
+.nav{
+    background-color: black;
+    position: relative;
+    bottom:50px;
+    border: 2px solid white;
+    box-shadow: inset 0 0 15px  blueviolet, 0 0 15px  blueviolet;
+
+    
+    
+
+}
+
+p{
+    text-align: center;
+    font-size:15px;
+}
+
+ul,li{
+    display: inline;
+    list-style: none;
+    padding:0;
+    line-height:3;
+    font-size: 30px;
+    padding-right: 45px;
+    padding-left:70px;
+    color: white;
+    border-right: 5px;
+    border-color: white;
+    
+
+}
+
+a:hover{    
+    color: white;
+    text-shadow:0 0 5px blueviolet, 0 0 10px blueviolet, 0 0 20px blueviolet, 0 0 30px blueviolet;
+
+    
+    
+}
+
+a{
+    color: white;;
+    text-align: center;
+    padding:auto;
+    
+}   
+
+.footer{
+    display: flex;
+    position:absolute;
+    background-color: black;
+    top: 800px;
+
+}
+
+.footer__text{
+    position:relative;
+    color: white;
+    left:10px;
+    width: 300px;
+    border-right: 1px solid gray;
+    text-align: center;
+
+    
+    
+    
+}
+.facebook{
+    position: relative;
+    height: 80px;
+    width: 80px;
+    top: 100px;
+    opacity: 0.4;
+    left:499px;
+}
+
+.instagram{
+    position: relative;
+    height: 87px;
+    width: 87px;
+    top: 100px;
+    opacity: .4;
+    left: 500px;
+    
+}
+
+.twitter{
+    position: relative;
+    height: 80px;
+    width: 80px;
+    top: 100px;
+    opacity: 0.4;
+    left:500px;
+}
+.text2{
+    position: relative;
+    color: white;
+    left:730px;
+    font-size:60px;
+    
+}
+
+.video{
+    position: relative;
+    width: 550px;
+    height: 350px;
+    left: 675px;
+    bottom:360px;
+    border-radius: 25px;
+    background-color:transparent;
+}
